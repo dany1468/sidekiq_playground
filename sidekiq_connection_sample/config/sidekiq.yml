@@ -1,0 +1,10 @@
+---
+:verbose: false
+:timeout: 60
+:pidfile: ./tmp/pids/sidekiq.pid
+:logfile: ./log/sidekiq.log
+:concurrency: 120 
+:queues:
+  - default
+:url: redis://127.0.0.1:6379
+

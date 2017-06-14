@@ -1,0 +1,37 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (1.0.4)
+    connection_pool (2.2.1)
+    rack (2.0.1)
+    rack-protection (1.5.3)
+      rack
+    redis (3.3.2)
+    redis-namespace (1.5.2)
+      redis (~> 3.0, >= 3.0.4)
+    rufus-scheduler (3.3.2)
+      tzinfo
+    sidekiq (4.2.9)
+      concurrent-ruby (~> 1.0)
+      connection_pool (~> 2.2, >= 2.2.0)
+      rack-protection (>= 1.5.0)
+      redis (~> 3.2, >= 3.2.1)
+    sidekiq-cron (0.4.5)
+      redis-namespace (>= 1.5.2)
+      rufus-scheduler (>= 2.0.24)
+      sidekiq (>= 4.2.1)
+    sidekiq-ent (0.0.1)
+    thread_safe (0.3.5)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  sidekiq
+  sidekiq-cron
+  sidekiq-ent
+
+BUNDLED WITH
+   1.13.7

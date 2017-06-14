@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+
+gem 'sidekiq'
+gem 'sidekiq-batch', path: '/Users/sansan_dan/.ghq/github.com/breamware/sidekiq-batch'
+# gem 'sidekiq-cron'
+gem 'sidekiq-scheduler'
